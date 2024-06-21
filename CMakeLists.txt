@@ -247,6 +247,7 @@ if(WIN32)
         DEPENDS install
         WORKING_DIRECTORY ${CMAKE_INSTALL_PREFIX}/..
         )
+	set(ENV{HOME} $ENV{USERPROFILE}) 
 endif()
 
 set(OVERRIDES_PATH "$ENV{HOME}/.julia/artifacts/Overrides.toml" CACHE FILEPATH "Path to the Overrides file")
