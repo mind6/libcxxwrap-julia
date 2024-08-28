@@ -5,3 +5,6 @@
 /CMakeSettings.json
 /build
 /.vscode
+CMakeFiles/
+cxxwrap_julia.dir/
+Release/cxxwrap_julia.lib
